@@ -1,0 +1,68 @@
+# Data — download via Kaggle API, never commit
+competitions/*/data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.zip
+*.tar.gz
+*.7z
+
+# Models and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Secrets and credentials
+.env.local
+kaggle.json
+*.key
+secrets.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and outputs
+*.log
+logs/
+outputs/
+wandb/
+mlruns/
