@@ -1,6 +1,4 @@
 # Data — download via Kaggle API, never commit
-competitions/*/data/
-*.csv
 *.tsv
 *.parquet
 *.feather
